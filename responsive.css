@@ -1,0 +1,405 @@
+
+
+@media only screen and (max-width:1024px){
+    
+    .background{
+        height: auto;
+    }
+    .new {
+        padding: 40px 70px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .storyside2 {
+        margin-left: 100px;
+    }
+    .shop {
+        padding: 40px 100px 40px 100px;
+    }
+    .design {
+        padding: 40px 100px 40px 100px;
+    }
+    .designside2 img {
+        height: 320px;
+    }
+    .cards {
+       
+        padding: 40px 100px 40px 100px;
+       
+    }
+    .footer {
+        
+        padding: 40px 100px 40px 100px;
+    }
+    
+    .newcards .card1 img{
+        width: 200px;
+    }
+    .newside1 {
+        width: 100%;
+    }
+    
+    .scard1 img {
+        width: 180px;
+    }
+    .card3 {
+        width: 240px;
+    }
+    .card2{
+        width: 240px;
+    }
+    .card {
+        width: 240px;
+    }
+    .colside2 img {
+        height: 400px;
+    }
+    .newside2 img{
+        height: 500px;
+    }
+    .colside1 img{
+        height: 500px;
+    }
+    
+
+}
+@media only screen and (max-width:992px){
+    header{
+        display: none;
+    }
+    .banner {
+        justify-content: center;
+    }
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-text h1{
+        text-align: center;
+    }
+    .newcards .card1 img{
+        width: 180px;
+    }
+    .storyside2 {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    /* banner section  */
+    .background{
+        padding: 0 30px 0 30px;
+    }
+    .banner-text h1{
+        font-size: 72px;
+    }
+/* story section  */
+    .story{
+  margin-top: 50px;
+    }
+    .storyside1 img {
+        height: 450px;
+        
+    }
+    .storyside2 h2 {
+        font-size: 24px;
+}
+.storycontain .exp h3 {
+    font-size: 38px;
+}
+.storycontain .products h3 {
+    font-size: 38px;
+}
+.storycontain {
+   
+    margin: 10px 0;
+}
+.main-btn{
+    margin-top: 10px;
+}
+
+/* what's new section  */
+.new{
+    flex-direction: column;
+}
+.newcards{
+    justify-content: center;
+}
+.newside1 {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+.newcards .card1{
+    width: 40%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.newside1 h2 {
+    text-align: center;
+}
+
+/* collection section  */
+.colside1 img {
+    height: 400px;
+}
+.colside2 img {
+    height: 300px;
+}
+/* shop section  */
+.shop {
+    padding: 40px 50px 40px 50px;
+}
+.scard1 img {
+    width: 150px;
+    height: 150px;
+}
+
+/* our design section  */
+.design{
+    flex-direction: column;
+}
+.designside1 {
+    width: 90%;
+    text-align: center;
+}
+/* cards section  */
+.cards {
+    padding: 40px 30px 40px 30px;
+
+}
+.card2 {
+    width: 220px;
+}
+.card {
+    width: 220px;
+}
+.card3 {
+    width: 220px;
+}
+/* footer section  */
+ .footer {
+    padding: 40px 40px 40px 40px;
+}
+.footer-cards ul li {
+    font-size: 12px;
+}
+}
+
+@media only screen and (max-width:576px){
+    /* banner section  */
+    .banner-text h1 {
+        margin-top: 50px;
+        font-size: 36px;
+    }
+
+    /* story section  */
+    .story{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 50px;
+        margin-top: 10px;
+    }
+    .storyside1 img {
+        height: 350px;
+    }
+    .storyside2 {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .para2{
+        text-align: justify;
+    }
+    .storycontain {
+        justify-content: center;
+    }
+
+    /* handmade section  */
+    .quote h2 {
+        font-size: 28px;
+    }
+    /* new section  */
+    .new{
+       
+        padding: 0px 40px;
+        padding-bottom: 40px;
+    }
+    .newcards .card1 img {
+        width: 180px;
+    }
+    .newside2 img {
+        height: 450px;
+    }
+
+    /* features section  */
+    .features{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feature3{
+        border: none;
+    }
+    .feature1{
+       width: 50%;
+       
+    }
+    .feature2{
+       width: 50%;
+       
+    }
+    .f-mar{
+        margin-top: 20px;
+    }
+    /* collection section  */
+.colside1 img {
+    height: 300px;
+}
+.colside2 img {
+    height: 200px;
+}
+.colside2 h2 {
+    font-size: 28px;
+}
+.colside2 p {
+    
+    margin-top: 20px;
+}
+/* shop section  */
+.shopcards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.scard1 img {
+    width: 200px;
+    height: 180px;
+    margin-top: 20px;
+}
+/* section-9  */
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.card2{
+    width: 300px;
+    margin-bottom: 20px; 
+}
+.card3{
+    width: 300px;
+    
+}
+/* footer section  */
+.footer1{
+    width: 100%;
+    text-align: center;
+}
+.footer-contain{
+    flex-wrap: wrap;
+}
+.footer-icons {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer-cards {
+    width: 23%;
+}
+}
+
+@media only screen and (max-width:400px){
+    
+    /* design section  */
+    .design {
+        padding: 40px 20px 40px 20px;
+    }
+    .designside2 img {
+        height: 220px;
+    }
+    /* new section */
+    .new{
+        padding: 0 20px;
+    }
+    .newcards .card1 img {
+        width: 130px;
+        height: 160px;
+    }
+    
+    .newcards .card1 {
+        width: 50%;
+    }
+    .card1 p{
+        text-align: center;
+    }
+    
+    .socialicon {
+        padding: 5px 10px;
+    }
+    /* feature section  */
+    
+    /* collection section  */
+    .collection{
+        flex-direction: column;
+    }
+    .collection {
+        align-items: center;
+    }
+    .colside1  {
+        margin-top: 30px;
+        display: flex;
+        order: 2;
+    }
+    .colside2  {
+       display: flex;
+       flex-direction: column;
+       order:1;
+       margin: 0;
+    }
+    /* shop section  */
+    .shop h2{
+        text-align: center;
+    }
+    .shopcards {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* follow us section  */
+    .followcontain {
+        width: 300px;
+    }
+
+    /* footer section  */
+    .footer-input input{
+        width: 300px;
+    }
+    .footer2, .footer3, .footer4, .footer5{
+        width: 50%;
+        
+    }
+    .footer-copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .newside2{
+    display: flex;
+    order: 2;
+    }
+    .newside2 img {
+        margin-top: 30px;
+        width: 350px;
+    }
+    .scard1 img {
+        width: 240px;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
